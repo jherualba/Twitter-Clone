@@ -1,0 +1,152 @@
+/* 
+Common
+***********************/
+
+html,
+body {
+    height: 100%;
+}
+
+
+
+.content{
+    max-width: 600px;
+    
+    margin: 0 auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.header {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+.content .header .twittericon {
+    width: 60px;
+    padding: 10px 40px;
+    
+}
+
+/*
+Post
+***********************/
+
+.post_form {
+    padding: 20px 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+.post_form input {
+    width:70%;
+    margin-bottom:10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.post_form textarea {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+#uploadfile{
+    width: 40%;
+    border: hidden;
+    overflow: hidden;
+    background-color: none;
+}
+#button {
+    width: 20%;
+    background-color: rgb(29, 161, 242);
+    border-radius: 5px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+#cancel {
+    text-decoration: none;
+    width: 15%;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+.posts ul {
+    padding: 0;
+
+
+}
+
+.posts li {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 40px;
+    list-style: none;
+    position: relative;
+}
+
+.posts li .logo {
+    flex-basis: 15%;
+}
+
+.posts li .logo img {
+    width: 60%;
+}
+
+.posts li .name_body {
+    flex-basis: 85%;
+}
+
+.posts li .name_body .name {
+    font-weight: bold;
+    color: black;
+}
+
+.posts li .datetime {
+    color: gray;
+}
+
+img.postimage {
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+img.heartimage{
+    width: 5%;
+    padding: 5px 0px; 
+}
+
+@media screen and (max-width: 500px) {
+    .posts li .name_body .name {
+        font-size: 20px;
+    }
+} 
+
+.posts li .menu_icon {
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+   
+    
+}
+
+.posts li .menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.posts li .menu a {
+    text-decoration: none;
+}
+
