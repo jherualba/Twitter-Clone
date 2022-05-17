@@ -1,7 +1,7 @@
 # Twitter-Clone
 
 ```
-
+This project functions similarly to Twitter, it was part of my bootcamp curriculum. Feel free to leave a message!
 ```
 Check out [LIVE Twitter clone DEMO](https://twitterclone-jheru.herokuapp.com/) here!!
 
